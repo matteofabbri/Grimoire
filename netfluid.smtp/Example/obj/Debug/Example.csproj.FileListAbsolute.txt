@@ -1,0 +1,13 @@
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\Example.exe.config
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\Example.exe
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\Example.pdb
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\BouncyCastle.Crypto.dll
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\MailKit.dll
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\MimeKit.dll
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\Netfluid.Smtp.dll
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\Netfluid.Smtp.pdb
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\MailKit.xml
+D:\PROGETTI\Netfluid.Smtp\Example\bin\Debug\MimeKit.xml
+D:\PROGETTI\Netfluid.Smtp\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
+D:\PROGETTI\Netfluid.Smtp\Example\obj\Debug\Example.exe
+D:\PROGETTI\Netfluid.Smtp\Example\obj\Debug\Example.pdb

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netfluid", "..\..\NetFluid\Netfluid\Netfluid.csproj", "{4A1E586A-1627-469B-A0B9-0E2C48A3BDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elettra", "Elettra\Elettra.csproj", "{EAF80D39-0B64-497C-92BE-ABF23086669E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1E586A-1627-469B-A0B9-0E2C48A3BDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1E586A-1627-469B-A0B9-0E2C48A3BDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1E586A-1627-469B-A0B9-0E2C48A3BDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1E586A-1627-469B-A0B9-0E2C48A3BDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF80D39-0B64-497C-92BE-ABF23086669E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF80D39-0B64-497C-92BE-ABF23086669E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF80D39-0B64-497C-92BE-ABF23086669E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF80D39-0B64-497C-92BE-ABF23086669E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
