@@ -1,0 +1,18 @@
+using System;
+using Scraper.Primitives;
+
+namespace Scraper.Data
+{
+    [Serializable]
+    internal class TypeAndQuantityNode : StructuredValue
+    {
+        /*The quantity of the goods included in the offer.*/
+        internal Number[] amountOfThisGood;
+        /*The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.*/
+        internal BusinessFunction[] businessFunction;
+        /*The product that this structured value is referring to.*/
+        internal Product[] typeOfGood;
+        /*The unit of measurement given using the UN/CEFACT Common Code (3 characters).*/
+        internal Text[] unitCode;
+    }
+}
