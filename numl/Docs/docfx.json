@@ -1,0 +1,80 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "numl.csproj"
+          ],
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ],
+          "cwd" : "../Src/numl"
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      },
+      {
+          "files": [
+            "getting-started/*.md",
+            "about/*.md",
+            "docs/*.md",
+            "api/*.md",
+            "support/*.md"
+          ]
+        },
+        {
+          "files": [
+              "toc.yml",
+              "getting-started/toc.yml",
+              "about/toc.yml",
+              "docs/toc.yml",
+              "api/toc.yml",
+              "support/toc.yml"
+            ]
+        }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "data/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [ "version.json" ],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "numl"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false
+  }
+}
