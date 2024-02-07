@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12" id="system">
+        <h2>System</h2>
+    </div>
+</div>
+
+<script>
+    (function ()
+    {
+        $.getJSON("/system", data => toTable(data,"#system"));
+    })();
+</script>
