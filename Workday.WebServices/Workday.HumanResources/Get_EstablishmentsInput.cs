@@ -1,0 +1,28 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.ServiceModel;
+
+namespace Workday.HumanResources
+{
+	[GeneratedCode("System.ServiceModel", "4.0.0.0"), EditorBrowsable(EditorBrowsableState.Advanced), DebuggerStepThrough, MessageContract(IsWrapped = false)]
+	public class Get_EstablishmentsInput
+	{
+		[MessageHeader(Namespace = "urn:com.workday/bsvc")]
+		public Workday_Common_HeaderType Workday_Common_Header;
+
+		[MessageBodyMember(Namespace = "urn:com.workday/bsvc", Order = 0)]
+		public Get_Establishments_RequestType Get_Establishments_Request;
+
+		public Get_EstablishmentsInput()
+		{
+		}
+
+		public Get_EstablishmentsInput(Workday_Common_HeaderType Workday_Common_Header, Get_Establishments_RequestType Get_Establishments_Request)
+		{
+			this.Workday_Common_Header = Workday_Common_Header;
+			this.Get_Establishments_Request = Get_Establishments_Request;
+		}
+	}
+}
