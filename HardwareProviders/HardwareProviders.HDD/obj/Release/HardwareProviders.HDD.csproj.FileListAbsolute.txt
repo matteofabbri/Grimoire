@@ -1,0 +1,9 @@
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\bin\Release\HardwareProviders.HDD.dll
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\bin\Release\HardwareProviders.HDD.pdb
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\bin\Release\HardwareProviders.dll
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\bin\Release\HardwareProviders.pdb
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\obj\Release\HardwareProviders.HDD.csproj.CoreCompileInputs.cache
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\obj\Release\HardwareProviders.HDD.csproj.CopyComplete
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\obj\Release\HardwareProviders.HDD.dll
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\obj\Release\HardwareProviders.HDD.pdb
+D:\PROGETTI\HardwareProviders\HardwareProviders.HDD\obj\Release\HardwareProviders.HDD.csprojAssemblyReference.cache

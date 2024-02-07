@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<PackageTags>hardware harddrive hard drive monitorage power powers usage smart windows cpuid</PackageTags>
+    <Version>2.0.0</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Matteo Fabbri</Authors>
+    <Description>Retrieves hard drives installed on the system and their relative usage, temperature and every smart sensor available
+For dotnet standard.</Description>
+    <Copyright>Matteo Fabbri 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/matteofabbri/HardwareProviders/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://matteofabbri.org/hardware</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/matteofabbri/HardwareProviders</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HardwareProviders.Standard" Version="2.0.0" />
+    <PackageReference Include="System.Management" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

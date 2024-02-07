@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9520805F-5F7A-492E-8B39-DF540CD33F86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HardwareProviders.HDD</RootNamespace>
+    <AssemblyName>HardwareProviders.HDD</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HardDrive.cs" />
+    <Compile Include="Internals\DebugSmart.cs" />
+    <Compile Include="Internals\DriveAttributeValue.cs" />
+    <Compile Include="Internals\DriveThresholdValue.cs" />
+    <Compile Include="HDDGeneric.cs" />
+    <Compile Include="ISmart.cs" />
+    <Compile Include="Internals\NamePrefixAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Internals\RequireSmartAttribute.cs" />
+    <Compile Include="SmartAttribute.cs" />
+    <Compile Include="Internals\SmartNames.cs" />
+    <Compile Include="SSDIndilinx.cs" />
+    <Compile Include="SSDIntel.cs" />
+    <Compile Include="SSDMicron.cs" />
+    <Compile Include="SSDPlextor.cs" />
+    <Compile Include="SSDSamsung.cs" />
+    <Compile Include="SSDSandforce.cs" />
+    <Compile Include="Internals\SystemCall.cs" />
+    <Compile Include="Internals\WindowsSmart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HardwareProviders\HardwareProviders.csproj">
+      <Project>{6cf39d75-a7d7-4546-b29a-888294dc3e38}</Project>
+      <Name>HardwareProviders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
