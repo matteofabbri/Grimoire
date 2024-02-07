@@ -1,0 +1,9 @@
+language: csharp
+sudo: required
+mono: none
+dotnet: 6.0.101
+script:
+  - dotnet restore LinqInfer.sln
+  - dotnet build tests/LinqInfer.UnitTests/LinqInfer.UnitTests.csproj
+  - dotnet build tests/LinqInfer.IntegrationTests/LinqInfer.IntegrationTests.csproj
+  - dotnet test tests/LinqInfer.UnitTests/LinqInfer.UnitTests.csproj --filter TestCategory!=BuildOmit
