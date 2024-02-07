@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>LinqInfer.UnitTests</AssemblyName>
+    <RootNamespace>LinqInfer.UnitTests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Text\*.txt" />
+    <EmbeddedResource Include="Text\*.html" />
+    <EmbeddedResource Include="Maths\*.html" />
+    <EmbeddedResource Include="Maths\Graphs\*.xml" />
+    <EmbeddedResource Include="Learning\*.xml" />
+    <EmbeddedResource Include="Data\Storage\*.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Text\Html\html_sample1.html" />
+    <EmbeddedResource Include="Text\Html\html_sample2.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="NSubstitute" Version="4.2.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LinqInfer\LinqInfer.csproj" />
+  </ItemGroup>
+</Project>
